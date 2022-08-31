@@ -1,0 +1,7 @@
+# TODO: Define your analyzers here.
+
+module GOOSE;
+
+public type Packet = unit {
+    payload: bytes &eod;
+};

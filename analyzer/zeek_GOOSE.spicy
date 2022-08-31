@@ -1,0 +1,15 @@
+# This file sets up protocol confirmation/rejection for analyzers.
+
+module Zeek_GOOSE;
+
+import GOOSE;
+import zeek;
+
+# TODO: For DPD, protocol analyzers should confirm or reject a protocol.
+# on GOOSE::Packet::%done {
+#     zeek::confirm_protocol();
+# }
+#
+# on GOOSE::Packet::%error {
+#     zeek::reject_protocol("error while parsing Packet record");
+# }
